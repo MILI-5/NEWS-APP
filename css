@@ -1,0 +1,96 @@
+<style>
+    body {
+            margin: 0;
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            background-color: #0a0a0a;
+            color: #ffffff;
+        }
+
+        .header {
+            background-color: #323030;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .main-headline {
+            background-image: url('https://www.shutterstock.com/image-photo/heavy-raindrops-splashing-on-ground-260nw-2466205637.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #f9f6f6;
+            padding: 40px 20px;
+            text-align: center;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main-headline h2 {
+            font-size: 2rem;
+            margin: 0;
+        }
+
+        .main-headline p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        .news-section {
+            padding: 20px;
+        }
+
+        .news-section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .news-item {
+            background-color: #1e1e1e;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .news-item:hover {
+            transform: scale(1.05);
+        }
+
+        .news-item img {
+            width: 100%;
+            height: auto;
+            border-bottom: 2px solid #333;
+        }
+
+        .news-item h3 {
+            margin: 10px;
+            font-size: 1.2rem;
+        }
+
+        .news-item p {
+            margin: 10px;
+            font-size: 0.9rem;
+            color: #aaaaaa;
+        }
+
+        .footer {
+            background-color: #000000;
+            text-align: center;
+            padding: 10px;
+            color: #888888;
+            font-size: 0.9rem;
+        }
+</style>
